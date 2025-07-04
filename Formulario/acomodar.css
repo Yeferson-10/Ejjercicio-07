@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.scroll {
+    width: 70px;
+    height: 40px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+
+    position: fixed;
+    bottom: 55px;
+    right: 15px;
+    text-align: center;
+
+    transition: all 1s;
+
+}
+
+.scroll:hover{
+    width: 90px;
+    background-color: #0a33ed;
+}
+
+.scroll p{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px auto;
+}

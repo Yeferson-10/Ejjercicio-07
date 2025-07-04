@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Inc-ses.css">
+    <title>Inicio de Sesion</title>
+</head>
+<body>
+    
+   <header>
+      <h3 class="titulosuperior">Escuela Normal Superior Nº40 "Mariano Moreno"</h3>
+      <h1 class="titulocentro">Tecnicaturas en Desarrollo de Software</h1>
+      <h3 class="tituloinferior"><a href="../index.html">Inicio</a></h3>
+   </header>
+
+    <section class="form">
+        <h2>Nosotros</h2>
+        <form name="formulario" method="post" action="">
+
+            <label for="nombre" > Nombre y Apellido</label> 
+            <input type="text" name="nombre" id="nombre" placeholder="Martin" required>
+            
+            <label for="lugar">Cuidad</label>
+            <select name="lugar" id="lugar">
+                <option value="0"> Elige una Opcion</option>
+                <option value="1">San Cristobal</option>
+                <option value="2">Huenaqueros</option>
+                <option value="3">Capivara</option>
+                <option value="4">La Cabral</option>
+                <option value="5">Arrufo</option>
+            </select>
+
+            <label for="correo">Correo Electronico</label>
+            <input type="email" name="correo" id="correo" placeholder="martin12@gmail.com" required>
+
+            <label for="msg">Mensaje</label>
+            <textarea name="msg" id="msg" placeholder="Escribir..."></textarea>
+
+            <button type="submit" class="enviar">Enviar</button>
+            <button type="reset" class="cancelar">Reiniciar</button>
+
+        </form>
+    </section>
+
+    <footer>
+    <h4>Derechos Reservados</h4>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    color: #3e3e3e;
+}
+
+.form {
+    width: 60%;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+.form h2{
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #efefef;
+}
+
+.enviar, .cancelar {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.enviar {
+    background-color: #0a33edbb;
+}
+
+.enviar:hover {
+    background-color: #0db9f779;
+}
+
+.cancelar {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.cancelar:hover {
+    background-color: #0db9f779;
+}
